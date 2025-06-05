@@ -1,0 +1,232 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Starjobs</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+  </head>
+  <body>
+    <!-- START of Navigation -->
+      <header>
+        <nav>
+          <div class="logo">
+          <a href="#"><img src="{% static 'img/button-for-home.png' %}"></a>  
+        </div>
+        <ul class="Navigation">
+          <li class="nav">
+            <a href="#category-and-feature">Features</a>
+          </li>
+          <li class="nav">
+            <a href="#about-us">About Us</a>
+          </li>
+          <li class="nav">
+            <a href="#partners">Partners</a>
+          </li>
+          <li class="nav">
+            <a href="#contactus">Contact Us</a>
+          </li>
+        </ul>
+          <ul class="buttons">
+            <li>
+            <a href="https://app.starjobs.com.ph/login" class="btn signin">Sign In</a>
+          </li>
+          <li>
+            <a href="https://app.starjobs.com.ph/sign-up" class="btn register">Register</a>
+          </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- END of Navigation -->
+      <!-- START of Hero Action -->
+       <section class="hero-action">
+        <img class="logo" src="{% static 'img/logo.png' %}">
+        <div class="motto">
+          <div class="title-wrapper">
+            <p class="p">THE NEW FACE OF <br> A BETTER LABOR EFFICIENCY</p>
+          </div>
+          <p class="text-wrapper-2">Make it easier to find freelancers for your operations needs.</p>
+        </div>
+       <div class="app-and-download">
+          <img src="{% static 'img/image-22.png' %}" />
+          <div class="download">
+          <a href="https://play.google.com/store/apps/details?id=com.starjobs&hl=en_US&pli=1&fbclid=IwZXh0bgNhZW0CMTAAAR14YO2hWdBFp3I6jt2qfyWp_c_5C4Qm2e3-J7rbu_ebN-TC084J-O9IJsc_aem_ZmFrZWR1bW15MTZieXRlcw"><img src="{% static 'img/Google Play.png' %}"></a>
+          <a href="https://apps.apple.com/ph/app/starjobs-freelancers-app/id1660622210"><img src="{% static 'img/App Store.png' %}"></a>
+          </div>
+        </div>
+       </section>
+       <!-- END of Hero Action -->
+      <!--START of Category and Features -->
+      <section class="category-and-feature swiper" id="category-and-feature">
+        <div class="category-and-feature-wrapper">
+          <ul class="category-and-feature-wrapper swiper-wrapper">
+            <li class="features swiper-slide">
+              <div class="title">
+                <p>Features Services</p>
+              </div>
+              <div class="pics-and-text">
+                <div class="text">
+                  <img src="{% static 'img/image.png' %}">
+                  <p>Hourly/Daily</p>
+                </div>
+                <div class="text">
+                  <img src="{% static 'img/image-16.png' %}">
+                  <p>Scheduled</p>
+                </div>
+                <div class="text">
+                  <img src="{% static 'img/image-27.png' %}">
+                  <p>On-demand</p>
+                </div>
+              </div>
+            </li>
+            <li class="category swiper-slide">
+              <div class="title">
+                <p>Popular Gig in your Area</p>
+              </div>
+              <div class="pics-and-text2">
+                <div class="text">
+                  <img src="{% static 'img/image-1.png' %}">
+                  <p>Restaurant Services</p>
+                </div>
+                <div class="text">
+                  <img src="{% static 'img/image-2.png' %}">
+                  <p>Repair and Maintainance</p>
+                </div>
+                <div class="text">
+                  <img src="{% static 'img/image-3.png' %}">
+                  <p>Parcel and Logistics</p>
+                </div>
+                <div class="text">
+                  <img src="{% static 'img/image-4.png' %}">
+                  <p>Other Services</p> 
+                </div>
+              </div>
+            </li>
+          </ul>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+      <!-- END of Category and Feature -->
+      <!-- START of About US  -->
+       <section class="about-us" id="about-us">
+        <div class="aboutus">
+          <h1 class="header">
+            About Us
+          </h1>
+          <div class="description1">
+            <p>Starjobs allows JOBSTERS (independent contractors, freelancers, relievers) connect to clients and principals that offer short-term and temporary gig engagement</p>
+            <ul>
+              <li>
+                <p><strong>Flexibility</strong>: Get immediate talent or skills for augmentation and reinforcement (screened and filtered) through reviews.</p>
+              </li>
+              <li>
+                <p><strong>Freedom</strong>: Control of additional hours (calibrated per hour).</p>
+              </li>
+              <li>
+                <p><strong>Cost-efficiency</strong>: Savings and secured with fidelity CGLI and Accident Insurances.</p>
+              </li>
+              <li><p><strong>Ratings and Reviews</strong>: Posting of reviews and ratings on JOBSTERS (Independent Contractor or Freelancer or reliever) performance.</p> 
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="vision-mission">
+          <div class="vision">
+            <h1 class="header">
+              Vision
+            </h1>
+            <p class="description">
+              To be the top software application for the gig economy in Southeast Asia.
+            </p>
+          </div>
+          <div class="mission">
+            <h1 class="header">
+              Mission
+            </h1>
+            <div class="description2">
+              <p>To allow the JOBSTERS (independent contractors, freelancers, and relievers) and CLIENTS (principals):</p>
+              <ul>
+                <li>
+                  <p>Get the freedom to CONNECT and create your gig schedule</p>
+                </li>
+                <li>
+                  <p>ENGAGE to thousands of gigs available</p>
+                </li>
+                <li><p>ACCELERATE profit and career</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+       </section>
+      <!-- END of About Us -->
+      <!-- START of PARTNERS -->
+      <section class="partners" id="partners">
+        <h1 class="header">
+          Our Partners
+        </h1>
+        <div class="row1">
+          <img src="{% static 'img/image-6.png' %}" alt="" class="logo">
+          <img src="{% static 'img/image-7.png' %}" alt="" class="logo">
+          <img src="{% static 'img/image-9.png' %}" alt="" class="logo">
+          <img src="{% static 'img/image-8.png' %}" alt="" class="logo">
+          <img src="{% static 'img/image-10.png' %}" alt="" class="logo">
+          <img src="{% static 'img/image-11.png' %}" alt="" class="logo">
+          <img src="{% static 'img/image-12.png' %}" alt="" class="logo">
+          <img src="{% static 'img/image-13.png' %}" alt="" class="logo">
+        </div>
+        <div class="row2">
+          <img src="{% static 'img/image-14.png' %}" alt="" class="logo">
+          <img src="{% static 'img/image-15.png' %}" alt="" class="logo">
+          <img src="{% static 'img/image-16-2.png' %}" alt="" class="logo">
+          <img src="{% static 'img/image-17.png'  %}" alt="" class="logo">
+          <img src="{% static 'img/image-18.png'  %}" alt="" class="logo">
+          <img src="{% static 'img/image-19.png'  %}" alt="" class="logo">
+          <img src="{% static 'img/image-20.png'  %}" alt="" class="logo">
+          <img src="{% static 'img/image-21.png'  %}" alt="" class="logo">
+        </div>
+      </section>
+      <!-- END of PARTNERS -->
+      <!-- START of FOOTER -->
+      <footer class="footer" id="contactus">
+        <div class="social">
+          <img src="{% static 'img/image-5.png' %}" alt="">
+          <p class="social-text">Social</p>
+          <div class="buttons">
+            <a href="https://www.facebook.com/starjobsph?mibextid=LQQJ4d"><img src="{% static 'img/Facebook.png'}" alt=""></a>
+            <a href="https://www.instagram.com/starjobsph?igsh=MTQzNGZ0aWlocGxwNg%3D%3D"><img src="{% static 'img/Instagram.png' %}" alt=""></a>
+          </div>
+        </div>
+        <div class="organization">
+          <p>Members</p>
+          <p>Branding</p>
+        </div>
+        <div class="contact">
+          <h1 class="title">Contact Us</h1>
+          <div class="text-and-logo">
+            <div class="logo">
+              <img src="{% static 'img/clock.png' %}" alt="">
+              <img src="{% static 'img/location.png' %}" alt="">
+              <img src="{% static 'img/phone.png' %}" alt="">
+              <img src="{% static 'img/email.png' %}" alt="">
+            </div>
+            <div class="text">
+              <p class="text2">Monday - Friday 8am-5pm PST</p>
+              <p class="text2">Fern Building 827 P. Paredes St. Sampaloc Manila, NCR, Philippines</p>
+              <p class="text2">0995-042-6755</p>
+              <p class="text2">danicadamilig.starjobs@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- END of FOOTER -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="{%static 'js/script.js' %}"></script>
+  </body>
+  </html>
