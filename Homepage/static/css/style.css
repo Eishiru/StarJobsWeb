@@ -48,9 +48,6 @@ nav .Navigation {
   list-style: none;
   padding-right: 20px;
   margin: 0;
-  position: absolute;
-  left: 60%;
-  top: 40%;
 }
 
 
@@ -59,7 +56,6 @@ nav .buttons {
   align-items: center;
   gap: 10px;
   list-style: none;
-  padding-right: 20px;
   margin: 0;
 }
 
